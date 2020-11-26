@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/* 共通部分*/
+html {
+    font-size: 100%;
+}
+body{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #00bbdd;
+}
+img {
+    max-width: 100%;
+}
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/*HEADER*/
+.relative{
+    position: relative;
+    width: 100%;
+}
+.bg-size{
+    object-fit: cover;
+    height: 240px;
+    width: 100%;
+    position: absolute;
+}
+.icon{
+    object-position: top;
+    object-fit: cover;
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 180px;
+    left: 40px;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 175px;
+    left: 35px;
+}
+.left{
+    padding-top: 330px;
+    padding-left: 35px;
+}
+.flex{
+    display: flex;
+    list-style: none;
+}
+.flex li{
+    margin-right: 36px;
+}
+
+/*MAIN*/
+.icon-mini{
+    object-fit: cover;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    z-index: 2;
+}
+.left-only{
+    padding-left: 35px;
+}
+.circle-mini{
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    z-index:1;
+}
+.size-mini{
+    padding-bottom: auto;
+}
+.border{
+    border-top: solid 1px #00bbdd;
+    padding-top: 15px;
+}
+.block{
+    display: block;
+}
+.left-mini{
+    padding-left: 36px;
+}
+.top{
+    margin-top: 24px;
+}
+.date{
+    margin-left: auto;
+}
