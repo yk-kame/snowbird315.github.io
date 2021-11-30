@@ -71,6 +71,7 @@ img {
 
 /*MAIN*/
 .icon-mini{
+    object-position: top;
     object-fit: cover;
     height: 70px;
     width: 70px;
