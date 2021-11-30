@@ -77,6 +77,8 @@ img {
     width: 70px;
     border-radius: 100%;
     z-index: 2;
+    top: 180px;
+    left: 40px;
 }
 .left-only{
     padding-left: 35px;
